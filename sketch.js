@@ -38,7 +38,7 @@ function draw() {
 
 	
 	//hour circle
-  strokeWeight(8); 
+  	strokeWeight(8); 
 	noFill(); 
 	stroke('gray')
 	ellipse(-100, -150 , 200, 200,0);
