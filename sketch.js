@@ -23,22 +23,22 @@ function draw() {
 	
 	noFill(); 
 	stroke('gray');
-	ellipse(100, 0 , 200, 200,0);
+	ellipse(100, 0 , 200/3, 200/3,0);
 	stroke('yellow');
-	arc(100, 0 , 200, 200,0,  map(sec, 0, 60, 0, 360));
+	arc(100, 0 , 200/3, 200/3,0,  map(sec, 0, 60, 0, 360));
 
 
 	//minute circle 
 	strokeWeight(8);
 	noFill(); 
 	stroke('gray')
-	ellipse(-100, 150 , 200, 200,0);
+	ellipse(-100, 150 , 2*200/3, 2*200/3,0);
 	stroke('blue');
-	arc(-100, 150 , 200, 200, 0, map(min, 0, 60, 0, 360));
+	arc(-100, 150 , 2*200/3, 2*200/3, 0, map(min, 0, 60, 0, 360));
 
 	
 	//hour circle
-  	strokeWeight(8); 
+  strokeWeight(8); 
 	noFill(); 
 	stroke('gray')
 	ellipse(-100, -150 , 200, 200,0);
